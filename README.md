@@ -125,7 +125,7 @@ Example:
   "instances": 2,
   "env": {
     "BAMBOO_TCP_PORT": "1080",
-    "HAPROXY_STICKY_COOKIE": "SERVERID insert",
+    "HAPROXY_STICKY_COOKIE": "SERVERID insert indirect nocache",
     "MY_CUSTOM_ENV": "hello"
   }
 }
